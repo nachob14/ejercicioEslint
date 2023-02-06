@@ -1,8 +1,8 @@
 //Crea un archivo JS que contenga las siguientes líneas
 // Una cadena de texto con tu Nombre
-let nombre = 'Juan';
+let nombre = "Juan";
 // Otra cadena de texto con tu Apellido
-let apellido = 'Bordon';
+let apellido = "Bordon";
 // Una cadena de texto que se llame "estudiante" concatenando tu Nombre y tu Apellido con un espacio entre medias
 let estudiante = `${nombre} ${apellido}`;
 console.log(estudiante);
@@ -22,7 +22,7 @@ console.log(primeraLetra)
 let ultimaLetra = apellido.charAt(5)
 console.log(ultimaLetra);
 // Una cadena de texto que elimine los espacios de la variable "estudiante"
-let estudianteSinEspacios = estudiante.replace(' ','');
+let estudianteSinEspacios = estudiante.replace(" ","");
 console.log(estudianteSinEspacios)
 // Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
 let booleanEstudiante = estudiante.includes(`${nombre}`);
